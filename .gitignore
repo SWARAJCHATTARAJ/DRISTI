@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Hugging Face Cache
+hf_cache/
+
+# Heavy Checkpoints (Keep these out of git!)
+checkpoints/
+*.pt
+*.bin
+
+# Datasets (Optional: uncomment if you want to keep data private)
+# data/*.json
+
+# OS Files
+.DS_Store
+Thumbs.db

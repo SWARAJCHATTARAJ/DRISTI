@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Fact check: JSON is commonly used for structured data exchange.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Is it true that avi is a relational database.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "JSON is commonly used for structured data exchange.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: An operating system manages computer resources.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: C++ is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that docker can package applications into containers.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: Ruby can be used for software development.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is it true that powerpoint is a gpu computing framework.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "A transformer model can process tokenized text.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is it true that ruby can be used for software development.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is it true that json is commonly used for structured data exchange.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: TIFF is a programming language.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that c++ is a programming language.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that json is commonly used for structured data exchange.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: An operating system manages computer resources.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: PNG is a neural network architecture.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Fact check: Scikit-learn provides machine learning tools.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "MySQL is a database system.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: Photoshop is a relational database.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Can we say that ruby can be used for software development.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: DOCX is a machine learning framework.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: Docker can package applications into containers.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: NumPy can perform numerical array operations.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: A transformer model can process tokenized text.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is it true that docx is a machine learning framework.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: DOCX is a machine learning framework.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: Git can track changes to source code.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Scikit-learn provides machine learning tools.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is it true that an operating system manages computer resources.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Can we say that c++ is a programming language.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that a transformer model can process tokenized text.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "An operating system manages computer resources.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: NumPy can perform numerical array operations.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that mysql is a database system.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that docx is a machine learning framework.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "TIFF is a programming language.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that numpy can perform numerical array operations.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "SVG is a database engine.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that svg is a database engine.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: HTML is normally used for GPU programming.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: Scikit-learn provides machine learning tools.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: Ruby can be used for software development.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Photoshop is a relational database.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: MP3 is a database management system.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "MP3 is a database management system.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that scikit-learn provides machine learning tools.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: JSON is commonly used for structured data exchange.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Ruby can be used for software development.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: PowerPoint is a GPU computing framework.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is it true that photoshop is a relational database.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: Photoshop is a relational database.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Git can track changes to source code.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "PNG is a neural network architecture.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that avi is a relational database.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that png is a neural network architecture.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that mysql is a database system.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that word is a gpu programming platform.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: SVG is a database engine.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: MP3 is a database management system.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Fact check: TIFF is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that a transformer model can process tokenized text.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "AVI is a relational database.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that scikit-learn provides machine learning tools.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: SVG is a database engine.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Can we say that svg is a database engine.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Can we say that html is normally used for gpu programming.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "PowerPoint is a GPU computing framework.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Fact check: C++ is a programming language.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: AVI is a relational database.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that git can track changes to source code.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Is it true that html is normally used for gpu programming.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that tiff is a programming language.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Docker can package applications into containers.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that docker can package applications into containers.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that numpy can perform numerical array operations.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: MySQL is a database system.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: A transformer model can process tokenized text.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is it true that png is a neural network architecture.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Fact check: MySQL is a database system.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: Docker can package applications into containers.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that photoshop is a relational database.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Word is a GPU programming platform.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that powerpoint is a gpu computing framework.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: HTML is normally used for GPU programming.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that git can track changes to source code.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that an operating system manages computer resources.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "HTML is normally used for GPU programming.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "C++ is a programming language.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that mp3 is a database management system.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: Word is a GPU programming platform.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Fact check: Word is a GPU programming platform.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that mp3 is a database management system.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that tiff is a programming language.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that word is a gpu programming platform.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Fact check: PowerPoint is a GPU computing framework.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: AVI is a relational database.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "NumPy can perform numerical array operations.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "DOCX is a machine learning framework.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: Git can track changes to source code.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: PNG is a neural network architecture.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  }
+]

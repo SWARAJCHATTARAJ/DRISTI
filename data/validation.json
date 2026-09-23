@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Fact check: Python is a programming language.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: Python can be used for automation.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: Photoshop is a database engine.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that png is a database system.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that mp3 is a programming language.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is it true that python is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that cuda is associated with nvidia gpu computing.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: JPEG is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: TensorFlow is used for machine learning.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "GIF is a relational database.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that pytorch can build neural networks.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: PNG is a database system.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that cuda is associated with nvidia gpu computing.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: GIF is a relational database.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: CSS is normally used to train neural networks.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Can we say that photoshop is a database engine.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Fact check: CUDA is associated with NVIDIA GPU computing.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Is it true that jpeg is a programming language.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: PyTorch can build neural networks.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "TensorFlow is used for machine learning.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that gif is a relational database.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is it true that html is a machine learning framework.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is it true that postgresql is a relational database.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that tensorflow is used for machine learning.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "A CPU can perform numerical calculations.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: GIF is a relational database.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that html is a gpu programming framework.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: HTML is a machine learning framework.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: Photoshop is a database engine.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "CSS is normally used to train neural networks.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Fact check: HTML is a machine learning framework.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "JPEG is normally used as a database engine.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "CSS is a relational database.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: PyTorch can build neural networks.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that tensorflow is used for machine learning.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that jpeg is normally used as a database engine.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Can we say that postgresql is a relational database.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that python can be used for automation.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: PostgreSQL is a relational database.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "HTML is a GPU programming framework.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: A database can store customer records.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: HTML is a GPU programming framework.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that python is useful for data analysis.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "CUDA is associated with NVIDIA GPU computing.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that png is a database system.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that a database can store customer records.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: A database can store customer records.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: PNG is a database system.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that css is a relational database.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "PyTorch can build neural networks.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that sql can be used to query relational databases.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "HTML is a machine learning framework.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that a cpu can perform numerical calculations.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Python is useful for data analysis.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "PNG is a database system.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: SQL can be used to query relational databases.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: PostgreSQL is a relational database.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that mp3 is a programming language.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Fact check: SQL can be used to query relational databases.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that css is normally used to train neural networks.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that sql can be used to query relational databases.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: JPEG is normally used as a database engine.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: JPEG is a programming language.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: CUDA is associated with NVIDIA GPU computing.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Photoshop is a database engine.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that html is a gpu programming framework.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: CSS is a relational database.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: TensorFlow is used for machine learning.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "A database can store customer records.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "SQL can be used to query relational databases.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "JPEG is a programming language.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that css is normally used to train neural networks.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Can we say that python can be used for automation.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: JPEG is normally used as a database engine.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that photoshop is a database engine.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Fact check: CSS is normally used to train neural networks.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "PostgreSQL is a relational database.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that pytorch can build neural networks.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: Python is useful for data analysis.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Can we say that a database can store customer records.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: A CPU can perform numerical calculations.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: Python can be used for automation.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: HTML is a GPU programming framework.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: Python is a programming language.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: A CPU can perform numerical calculations.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Can we say that python is useful for data analysis.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Python is a programming language.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that css is a relational database.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Fact check: Python is useful for data analysis.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Python can be used for automation.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is it true that jpeg is normally used as a database engine.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that gif is a relational database.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: MP3 is a programming language.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "MP3 is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that jpeg is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: MP3 is a programming language.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that python is a programming language.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: CSS is a relational database.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is it true that a cpu can perform numerical calculations.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Can we say that html is a machine learning framework.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  }
+]

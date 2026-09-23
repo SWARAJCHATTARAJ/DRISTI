@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Is the following statement accurate: a keyboard is a database management system?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is the following statement accurate: this database design is perfect for every application?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is the following statement accurate: Docker can package applications into containers?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: Python is a graphics card.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is the following statement accurate: caching always improves performance?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Fact check: a VPN can create an encrypted network tunnel.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is the following statement accurate: DNS can translate domain names into IP addresses?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Is it true that this program will never contain a bug?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that Windows is an operating system?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that whether Python is suitable depends on the task requirements?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is the following statement accurate: a firewall is a spreadsheet application?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that a database can store user records?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: this machine learning model will always be correct.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: a compiler can always understand incorrect source code.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Can we say that HTML is a GPU?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Fact check: whether a database is appropriate depends on the data requirements.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that regression can be used to predict numerical values?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Can we say that DNS is a neural network architecture?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is it true that CSS is used to style web pages?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that a GPU may improve some computational workloads?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Can we say that C++ is a programming language?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that classification always requires exactly two categories?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is the following statement accurate: Docker can simplify application deployment in many environments?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Can we say that whether caching helps depends on the application workload?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is the following statement accurate: automation completely removes the need for human review?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that TCP provides reliable ordered delivery of data?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that caching can improve performance in some applications?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is it true that a database is always the best way to store every kind of data?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that CUDA is a presentation application?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that a web server can only serve HTML files?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Is the following statement accurate: classification can assign data to categories?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: a VPN always guarantees complete privacy.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that whether a VPN is beneficial depends on the network situation?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: a database may be appropriate for structured records.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is the following statement accurate: a database automatically makes every stored value correct?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: Excel is spreadsheet software.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is the following statement accurate: HTML is a markup language?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is the following statement accurate: this computer configuration is guaranteed to be optimal?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that a compiler can be helpful in some software development workflows?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: Git is a version control system.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that cloud computing is always cheaper than local computing?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Fact check: whether parallel processing helps depends on the computation.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that a firewall can filter network traffic?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that this cloud architecture is guaranteed to minimize all costs?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that clustering can group similar data points?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Can we say that Docker is a relational database?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that Docker always makes every application faster?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is the following statement accurate: SQL is primarily an image editing application?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that NumPy is used for numerical computing?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Is it true that a VPN can improve privacy in some network situations?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is it true that whether automation is appropriate depends on the process?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: an API can allow software components to communicate.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: JSON is a CPU instruction set.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Fact check: regression is only useful for text labels.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is the following statement accurate: C++ is an image file format?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that Chrome is a database engine?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that PostgreSQL is a relational database system?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: this optimization method will always find the global optimum.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: CSS is a relational database.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is the following statement accurate: a debugger automatically fixes every software bug?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 3
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Can we say that this network design is guaranteed to be secure?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is the following statement accurate: Chrome is a web browser?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that a GPU can be useful for parallel numerical workloads?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: this software will definitely solve every computing problem.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that Pandas is commonly used for data manipulation?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Is it true that parallel processing always reduces runtime?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Can we say that a debugger can help locate software errors?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is the following statement accurate: PostgreSQL is a web browser?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that automation can reduce repetitive manual work?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is the following statement accurate: this security configuration can never be bypassed?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that whether a GPU is useful depends on the workload?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that Excel is a neural network architecture?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is it true that Python is a programming language?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Can we say that SQL can be used to query relational databases?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Is the following statement accurate: a GPU always improves application performance?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that Java is a database engine?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is the following statement accurate: whether cloud computing is suitable depends on the workload and constraints?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that Python can be a useful choice for many data analysis tasks?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is the following statement accurate: whether Docker is useful depends on the deployment environment?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that Git is a spreadsheet program?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is the following statement accurate: NumPy is a web browser?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is it true that a compiler can translate source code?",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is it true that this algorithm will always produce the best possible result?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is the following statement accurate: cloud computing can be useful for scalable workloads?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is the following statement accurate: a web server can respond to HTTP requests?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: TCP is an image file format.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Fact check: Java is a programming language.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: Windows is a relational database.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that whether a compiler is helpful depends on the programming workflow?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: CUDA can be used for GPU accelerated computing.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that a CPU executes program instructions?",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: parallel processing can reduce runtime for suitable workloads.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: a compiler automatically improves program design.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that a VPN makes every application completely anonymous?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: Pandas is a GPU hardware device.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Fact check: Python is always the best language for every data task.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that an API is always a network protocol?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is the following statement accurate: clustering always requires manually assigned class labels?",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that JSON is commonly used for structured data exchange?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: a GPU is always faster than a CPU for every workload.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  }
+]

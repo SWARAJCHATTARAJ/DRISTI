@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Notepad is a deep learning framework.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: Pandas is commonly used for data manipulation.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that a cpu can execute instructions.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Can we say that a neural network can process numerical inputs.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Can we say that sqlite is a database engine.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that java is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: WAV is a relational database.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "FastAPI can be used to build web APIs.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: Linux is an operating system.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that bmp is a programming language.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that pandas is commonly used for data manipulation.",
+    "options": [
+      "Unknown",
+      "No",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that wav is a relational database.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: FastAPI can be used to build web APIs.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that git is commonly used for version control.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Can we say that linux is an operating system.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that sqlite is a database engine.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Is it true that javascript can be used for web development.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "PowerPoint is a neural network framework.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Is it true that pdf is a machine learning framework.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Can we say that mp4 is a database management system.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: Git is commonly used for version control.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "PNG is a programming environment.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is it true that wav is a relational database.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that numpy is used for numerical computing.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "BMP is a programming language.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: CSS is a database query language.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: A CPU can execute instructions.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: MP4 is a database management system.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Can we say that css is a database query language.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Can we say that fastapi can be used to build web apis.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that a cpu can execute instructions.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Fact check: BMP is a programming language.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Is it true that mp4 is a database management system.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: PowerPoint is a neural network framework.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Can we say that notepad is a deep learning framework.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "CSS is a database query language.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Can we say that png is a programming environment.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that git is commonly used for version control.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "SQLite is a database engine.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: Java is a programming language.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "MP4 is a database management system.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Linux is an operating system.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: A CPU can execute instructions.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Can we say that powerpoint is a neural network framework.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Fact check: MP4 is a database management system.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that powerpoint is a neural network framework.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: PowerPoint is a neural network framework.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Fact check: WAV is a relational database.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Consider this statement: BMP is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Can we say that excel is a relational database engine.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: FastAPI can be used to build web APIs.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "Maybe",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Is it true that fastapi can be used to build web apis.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: Linux is an operating system.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: Notepad is a deep learning framework.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Excel is a relational database engine.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: PDF is a machine learning framework.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that excel is a relational database engine.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is it true that png is a programming environment.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "A CPU can execute instructions.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Pandas is commonly used for data manipulation.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "JavaScript can be used for web development.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "NumPy is used for numerical computing.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: NumPy is used for numerical computing.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is it true that jpeg is a programming framework.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: JavaScript can be used for web development.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: Git is commonly used for version control.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "Unknown",
+      "No"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: Java is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: Notepad is a deep learning framework.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Git is commonly used for version control.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: JavaScript can be used for web development.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is it true that css is a database query language.",
+    "options": [
+      "Yes",
+      "No",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Consider this statement: Excel is a relational database engine.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: NumPy is used for numerical computing.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "JPEG is a programming framework.",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that javascript can be used for web development.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 2
+  },
+  {
+    "question": "Is it true that notepad is a deep learning framework.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Is it true that linux is an operating system.",
+    "options": [
+      "No",
+      "Maybe",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 1,
+    "score": 5
+  },
+  {
+    "question": "Fact check: Pandas is commonly used for data manipulation.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: JPEG is a programming framework.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Can we say that pdf is a machine learning framework.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Fact check: PDF is a machine learning framework.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Is it true that numpy is used for numerical computing.",
+    "options": [
+      "No",
+      "Unknown",
+      "Maybe",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "PDF is a machine learning framework.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 3
+  },
+  {
+    "question": "Can we say that bmp is a programming language.",
+    "options": [
+      "Unknown",
+      "No",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: Excel is a relational database engine.",
+    "options": [
+      "No",
+      "Unknown",
+      "Yes",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Is it true that pandas is commonly used for data manipulation.",
+    "options": [
+      "Maybe",
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 4
+  },
+  {
+    "question": "Fact check: A neural network can process numerical inputs.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Consider this statement: SQLite is a database engine.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Fact check: CSS is a database query language.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 0,
+    "yes": 0,
+    "score": 2
+  },
+  {
+    "question": "Java is a programming language.",
+    "options": [
+      "No",
+      "Yes",
+      "Unknown",
+      "Maybe"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "WAV is a relational database.",
+    "options": [
+      "Yes",
+      "Unknown",
+      "No",
+      "Maybe"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 1
+  },
+  {
+    "question": "Fact check: SQLite is a database engine.",
+    "options": [
+      "No",
+      "Maybe",
+      "Unknown",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "A neural network can process numerical inputs.",
+    "options": [
+      "Maybe",
+      "Unknown",
+      "No",
+      "Yes"
+    ],
+    "choice": 3,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Is it true that a neural network can process numerical inputs.",
+    "options": [
+      "Yes",
+      "Maybe",
+      "No",
+      "Unknown"
+    ],
+    "choice": 0,
+    "yes": 1,
+    "score": 3
+  },
+  {
+    "question": "Fact check: PNG is a programming environment.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Can we say that java is a programming language.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 1
+  },
+  {
+    "question": "Can we say that jpeg is a programming framework.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "Unknown",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: PNG is a programming environment.",
+    "options": [
+      "Unknown",
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "choice": 3,
+    "yes": 0,
+    "score": 4
+  },
+  {
+    "question": "Consider this statement: JPEG is a programming framework.",
+    "options": [
+      "Maybe",
+      "Yes",
+      "No",
+      "Unknown"
+    ],
+    "choice": 2,
+    "yes": 0,
+    "score": 5
+  },
+  {
+    "question": "Consider this statement: A neural network can process numerical inputs.",
+    "options": [
+      "Unknown",
+      "Yes",
+      "Maybe",
+      "No"
+    ],
+    "choice": 1,
+    "yes": 1,
+    "score": 3
+  }
+]

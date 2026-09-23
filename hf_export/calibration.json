@@ -1,0 +1,5 @@
+{
+    "binary_temperature": 2.400517702102661,
+    "choice_temperature": 2.7279388904571533,
+    "note": "Temperatures are applied as: logits / temperature before softmax."
+}
