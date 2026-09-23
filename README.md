@@ -1,4 +1,4 @@
-# ⚡ Dristi: The System-One AI Routing Engine
+# ⚡ DRISTI: The System-One AI Routing Engine
 
 Dristi is an ultra-fast, strictly-typed, non-autoregressive probabilistic decision engine. Built as a "System One" router, Dristi acts as the high-speed front door to your AI infrastructure—handling 80% of routine tasks in milliseconds for fractions of a cent, and intelligently routing the difficult 20% to heavy "System 2" LLMs (like GPT-4 or Llama).
 
@@ -7,17 +7,25 @@ Unlike standard generative models that hallucinate and take seconds to return te
 ## ✨ Enterprise Features
 
 - **⚡ Blazing Fast Inference:** Evaluates text, scores options, and makes decisions in ~40ms on standard hardware (24+ QPS without batching).
-- **🛡️ Mathematical Self-Awareness (OOD Detection):** Dristi doesn't just guess. It calculates the Cosine Similarity of incoming requests against a mathematical centroid of its known training data. If a query is "Out of Distribution" (alien or gibberish), it safely abstains.
+- **🛡️ Mathematical Self-Awareness (OOD Detection):** Dristi calculates the Cosine Similarity of incoming requests against a mathematical centroid of its known training data. If a query is "Out of Distribution" (alien or gibberish), it safely abstains.
 - **🧠 Compound AI Routing:** Native `router.py` automatically intercepts uncertain or OOD queries and gracefully formats them for handoff to heavy LLMs. 
 - **🔄 Self-Healing API (Active Learning):** Built-in FastAPI endpoint (`/feedback`) automatically ingests human or System 2 corrections and permanently appends them to the real-world dataset. Dristi gets smarter every day, completely on autopilot.
 - **⚖️ Calibrated Probabilities:** Uses L-BFGS Temperature Scaling to ensure that a "90% confidence" score mathematically correlates to a 90% chance of being correct.
+- **🎯 Focal Loss (Edge-Case Mastery):** Mathematically forces the GPU to pay 10x more attention to rare, highly difficult queries to prevent class-imbalance laziness.
+
+## 🏗️ Dual Architecture (V1 vs V2)
+
+Dristi ships with two distinct mathematical models so you can balance Speed vs. Intelligence:
+
+*   **Version 1 (The Speed Demon):** Built on `DistilBERT`. Hits ~40ms latency and requires almost zero compute. The ultimate frontline router.
+*   **Version 2 (The Heavy Thinker):** Built on `DeBERTa-v3`. Uses Disentangled Attention to understand complex sarcasm and highly technical logic. Slightly slower, but incredibly intelligent.
 
 ## 📊 Benchmarks
 
 *Hardware: NVIDIA RTX 3050 Laptop GPU (4GB VRAM)*
 
-| Metric | System 1 (Fast-Path) | Heavy LLM (System 2) |
-|--------|----------------------|----------------------|
+| Metric | System 1 (V1 Fast-Path) | Heavy LLM (System 2) |
+|--------|-------------------------|----------------------|
 | **Avg Latency** | **42.39 ms** | ~ 1,500.00 ms |
 | **P99 Latency** | **51.35 ms** | ~ 3,000.00 ms |
 | **Throughput** | **23.59 QPS** | < 1 QPS |
@@ -28,8 +36,8 @@ Unlike standard generative models that hallucinate and take seconds to return te
 
 ### 1. Installation
 ```bash
-git clone https://github.com/yourusername/dristi.git
-cd dristi
+git clone https://github.com/SWARAJCHATTARAJ/DRISTI.git
+cd DRISTI
 pip install -e .
 ```
 
@@ -60,23 +68,16 @@ curl -X 'POST' \
   "abstain": false,
   "selected_option": "Yes",
   "probabilities": [0.95, 0.03, 0.02],
-  "ood_detected": false
+  "policy_flags": []
 }
 ```
-
-## 🛠️ Architecture
-
-Dristi is built on a 66-million parameter encoder (DistilBERT) featuring three distinct heads:
-1. **Binary Head:** Decides YES/NO.
-2. **Dynamic Option Scorer:** Evaluates an arbitrary array of `N` options and returns a confidence distribution.
-3. **Ordinal Head:** Calculates a strictly enforced 1-5 expected value score.
 
 ## 📈 Training on Your Own Private Data
 
 Dristi is designed to be a domain specialist. To overshadow generalized models in your specific company (e.g., Legal Routing, Support Tickets):
 1. Format your private data into `data/train_real.json`.
-2. Run `python -m training.train_dristi_v05_real`.
+2. Run `python -m training.train_dristi_v05_real` (for V1 Speed) OR `python -m training.train_dristi_v06_deberta` (for V2 Intelligence).
 3. Dristi will master your domain while remaining 100% private and air-gapped.
 
-## 🤝 Open Source
+## 🤝 Open Source (MIT License)
 Dristi is completely open-source. The architecture proves that you don't need a $40M budget or a proprietary API to build a world-class, mathematically safe System One engine.
