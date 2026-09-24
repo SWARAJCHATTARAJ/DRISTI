@@ -1,14 +1,14 @@
 import json
-from inference.dristi_engine import DristiEngine
+from inference.dual_engine import DualEngineRouter
 from inference.policy_layer import PolicyLayer
 
 class DristiPipeline:
     def __init__(self):
-        self.engine = DristiEngine()
+        self.engine = DualEngineRouter()
         self.policy = PolicyLayer()
         
     def process(self, question: str, options: list[str]) -> dict:
-        # Step 1: Neural Model Prediction & Abstention
+        # Step 1: Neural Model Prediction & Abstention (Dual Engine Cascade)
         model_output = self.engine.predict(question, options)
         
         # Step 2: Deterministic Policy Rules

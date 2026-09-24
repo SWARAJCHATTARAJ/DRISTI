@@ -22,6 +22,9 @@ class PredictResponse(BaseModel):
     selected_option: str
     probabilities: List[float]
     policy_flags: List[str]
+    ood_similarity: float = None
+    ood_detected: bool = False
+    engine_used: str = None
 
 class FeedbackRequest(BaseModel):
     question: str

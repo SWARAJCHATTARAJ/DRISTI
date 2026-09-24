@@ -224012,5 +224012,19 @@
     "yes": 1,
     "choice": 5,
     "score": 4
+  },
+  {
+    "question": "What is the emotion of this text: 'I am so confused by PyTorch'?",
+    "options": [
+      "Sadness",
+      "Joy",
+      "Fear",
+      "Surprise",
+      "Anger",
+      "Confusion"
+    ],
+    "yes": 1,
+    "choice": 5,
+    "score": 4
   }
 ]

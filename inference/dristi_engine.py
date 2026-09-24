@@ -4,19 +4,27 @@ import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer
 
-from model.dristi_model_v03 import DristiModelV03
 from inference.config import MODEL_NAME, CHECKPOINT_PATH, CALIBRATION_PATH, MAX_LENGTH
 
 class DristiEngine:
-    def __init__(self, device=None):
+    def __init__(self, device=None, model_class=None, model_name=None, checkpoint_path=None, calibration_path=None):
         self.device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
-        print("Loading Tokenizer...")
-        self.tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+        # Use provided args or fallback to config defaults
+        self.model_name = model_name or MODEL_NAME
+        self.checkpoint_path = checkpoint_path or CHECKPOINT_PATH
+        self.calibration_path = calibration_path or CALIBRATION_PATH
         
-        print("Loading Model...")
-        self.model = DristiModelV03(model_name=MODEL_NAME, num_scores=5)
-        checkpoint = torch.load(CHECKPOINT_PATH, map_location=self.device, weights_only=False)
+        if model_class is None:
+            from model.dristi_model_v03 import DristiModelV03
+            model_class = DristiModelV03
+
+        print(f"Loading Tokenizer: {self.model_name}...")
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+        
+        print(f"Loading Model: {model_class.__name__} from {self.checkpoint_path}...")
+        self.model = model_class(model_name=self.model_name, num_scores=5)
+        checkpoint = torch.load(self.checkpoint_path, map_location=self.device, weights_only=False)
         self.model.load_state_dict(checkpoint["model_state_dict"])
         self.model.to(self.device)
         self.model.eval()
@@ -29,8 +37,8 @@ class DristiEngine:
         self.min_margin = 0.02
         self.max_uncertainty = 0.40
         
-        if os.path.exists(CALIBRATION_PATH):
-            with open(CALIBRATION_PATH, "r", encoding="utf-8") as f:
+        if os.path.exists(self.calibration_path):
+            with open(self.calibration_path, "r", encoding="utf-8") as f:
                 calib = json.load(f)
                 self.t_binary = calib.get("binary_temperature", 1.0)
                 self.t_choice = calib.get("choice_temperature", 1.0)
@@ -48,7 +56,7 @@ class DristiEngine:
             import numpy as np
             # Load the mathematical center of known training data
             self.ood_centroid = torch.tensor(np.load(ood_path)).to(self.device)
-            self.min_ood_similarity = 0.50 # Adjust this threshold based on testing
+            self.min_ood_similarity = 0.15 # Lowered to prevent aggressive blocking of general queries
             print("Loaded OOD mathematical centroid for alien-query detection.")
 
     @torch.inference_mode()
