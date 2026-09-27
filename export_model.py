@@ -23,6 +23,10 @@ def export_model_for_hf(checkpoint_path, base_model_name, export_dir, custom_cod
     
     print("Downloading and saving tokenizer/config files...")
     # This ensures the config.json and tokenizer files are present in the Hugging Face repo
+    from transformers import AutoConfig
+    config = AutoConfig.from_pretrained(base_model_name)
+    config.save_pretrained(export_dir)
+    
     tokenizer = AutoTokenizer.from_pretrained(base_model_name)
     tokenizer.save_pretrained(export_dir)
     
