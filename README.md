@@ -1,57 +1,64 @@
-# ⚡ DRISTI: The System-One AI Routing Engine
+# DRISTI: The System-One Routing Engine
 
-Dristi is an ultra-fast, strictly-typed, non-autoregressive probabilistic decision engine. Built as a "System One" router, Dristi acts as the high-speed front door to your AI infrastructure—handling 80% of routine tasks in milliseconds for fractions of a cent, and intelligently routing the difficult 20% to heavy "System 2" models.
+Most AI models are slow, expensive, and unpredictable. They hallucinate, take several seconds to stream a response, and cost a fortune at scale. 
 
-Unlike standard generative models that hallucinate and take seconds to return text, Dristi returns strict JSON probabilities in **under 45 milliseconds**.
+**DRISTI** is built to solve that. It acts as the high-speed "System One" front door for your AI infrastructure. Instead of sending every simple query to an expensive API like GPT-4, DRISTI handles the routine, easy tasks locally in about 40 milliseconds. It only routes the difficult questions to the heavy models when it really needs to.
 
-## ✨ Enterprise Features
+And it doesn't generate text—it returns strict, predictable JSON.
 
-- **⚡ Blazing Fast Inference:** Evaluates text, scores options, and makes decisions in ~40ms on standard hardware.
-- **🛡️ Mathematical Self-Awareness (OOD Detection):** Dristi calculates the Cosine Similarity of incoming requests against a mathematical centroid of its known training data. If a query is "Out of Distribution" (alien or gibberish), it safely abstains.
-- **🧠 Local Dual-Engine Cascade:** Dristi natively loads both a fast System 1 (DistilBERT) and a heavy System 2 (DeBERTa) model into memory. If System 1 lacks confidence, it cascades entirely locally without needing an external API!
-- **🔄 Self-Healing API (Active Learning):** Built-in FastAPI endpoint (`/feedback`) automatically ingests human or System 2 corrections and permanently appends them to the real-world dataset. Dristi gets smarter every day, completely on autopilot.
-- **⚖️ Calibrated Probabilities:** Uses L-BFGS Temperature Scaling to ensure that a "90% confidence" score mathematically correlates to a 90% chance of being correct.
+## Why use DRISTI?
 
-## 🏗️ Dual Architecture (V1 vs V2)
+- **It's insanely fast:** We're talking ~40ms on standard hardware for most queries. 
+- **It knows when it's confused (OOD Detection):** If you send it gibberish or something completely outside its training, it calculates the mathematical distance from what it knows and safely abstains rather than guessing.
+- **Local Dual-Engine Cascade:** This is the core feature. DRISTI loads two models into memory: a lightning-fast one (DistilBERT) and a heavier, smarter one (DeBERTa). If the fast model isn't confident, DRISTI automatically cascades the query to the heavy model locally. No API calls required.
+- **It gets smarter on autopilot:** There's a built-in FastAPI endpoint that lets you feed corrections back into the dataset, continuously improving the model in production.
+- **Trustworthy confidence scores:** A 90% confidence score actually means it has a 90% chance of being right, thanks to built-in temperature scaling.
 
-Dristi ships with two distinct mathematical models connected via the `inference.dual_engine` router:
+## The Two Engines (V1 vs V2)
 
-*   **Version 1 (The Speed Demon):** Built on `DistilBERT`. Hits ~40ms latency and runs on GPU. The ultimate frontline router.
-*   **Version 2 (The Heavy Thinker):** Built on `DeBERTa-v3`. Uses Disentangled Attention to understand complex sarcasm and highly technical logic. Loaded into CPU RAM by default to save VRAM, acting as the local safety net.
+DRISTI ships with two models working together:
 
-## 📊 Benchmarks
+* **V1 (The Speed Demon):** Built on DistilBERT. This runs on your GPU, hits ~40ms, and handles the bulk of the work.
+* **V2 (The Heavy Thinker):** Built on DeBERTa-v3. This one sits in your CPU RAM (to save VRAM) and catches the complex, nuanced queries that V1 isn't sure about.
 
-*Hardware: NVIDIA RTX 3050 Laptop GPU (4GB VRAM)*
+## Benchmarks
 
-| Metric | System 1 (V1 Fast-Path) | System 2 (V2 Heavy-Path) | Heavy LLM (e.g. GPT-4) |
-|--------|-------------------------|--------------------------|------------------------|
-| **Avg Latency** | **42.39 ms** | ~ 150.00 ms | ~ 1,500.00 ms |
-| **Throughput** | **23.59 QPS** | ~ 5 QPS | < 1 QPS |
-| **Cost per 1k** | **$0.00 (Local)** | **$0.00 (Local)** | ~$20.00 (API) |
+*Tested on an NVIDIA RTX 3050 Laptop GPU (4GB VRAM)*
 
-## 🚀 Quickstart
+| Metric | V1 Fast-Path | V2 Heavy-Path | Heavy LLMs (e.g. GPT-4) |
+|--------|--------------|---------------|-------------------------|
+| **Latency** | 45.60 ms | 698.57 ms | ~ 1,500.00 ms |
+| **Throughput**| 21.93 QPS | 1.43 QPS | < 1 QPS |
+| **Cost / 1k** | Free (Local)| Free (Local) | ~$20.00 (API) |
 
-### 1. Installation
+## Quickstart
+
+### 1. Get the code
 ```bash
 git clone https://github.com/SWARAJCHATTARAJ/DRISTI.git
 cd DRISTI
-# Activate virtual environment
 .\.venv\Scripts\Activate.ps1
 ```
 
-### 2. Test the Local Dual Engine
-Run the local inference script to see the cascade router intelligently switch between the Fast and Heavy models:
+### 2. Test the router locally
+Want to see the dual-engine switch between the fast and heavy models in real time?
 ```bash
 python -m inference.dual_engine
 ```
 
-### 3. Start the Self-Healing API
-Run the FastAPI server to expose the Dual Engine and the `/feedback` loop to your web apps.
+### 3. Run the benchmarks
+You can benchmark both engines on your own hardware to see the speed difference:
+```bash
+python -m inference.benchmark
+```
+
+### 4. Fire up the API
+Start the FastAPI server so your web apps can start talking to the router.
 ```bash
 uvicorn inference.api:app --host 0.0.0.0 --port 8000
 ```
 
-### 4. Make a Routing Request
+### 5. Send a request
 ```bash
 curl -X 'POST' \
   'http://localhost:8000/predict' \
@@ -62,7 +69,7 @@ curl -X 'POST' \
 }'
 ```
 
-**Instant JSON Response:**
+You'll get an instant JSON response back looking something like this:
 ```json
 {
   "decision": "YES",
@@ -79,20 +86,20 @@ curl -X 'POST' \
 }
 ```
 
-## 📈 Training & Exporting
+## Training & Exporting
 
-### Training the Heavy Thinker
-To train the DeBERTa-v3 model on your specific domain data:
+### Train the Heavy Thinker
+If you want to fine-tune the DeBERTa-v3 model on your own data:
 ```bash
 python -m training.train_dristi_v06_deberta
 ```
 
-### Exporting to Hugging Face
-Once trained, package both your V1 and V2 models instantly for Hugging Face:
+### Export to Hugging Face
+Once you're happy with your models, you can package both V1 and V2 for Hugging Face in one go:
 ```bash
 python export_model.py
 ```
-This will create an `hf_export` directory containing standard `transformers` repositories ready to upload!
+This drops everything into an `hf_export` directory, ready to be uploaded.
 
-## 🤝 Open Source (MIT License)
-Dristi is completely open-source. The architecture proves that you don't need a $40M budget or a proprietary API to build a world-class, mathematically safe System One engine.
+## Open Source
+DRISTI is MIT licensed. It's built to prove you don't need massive budgets or expensive APIs to build a fast, reliable AI routing layer.

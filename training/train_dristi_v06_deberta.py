@@ -26,8 +26,8 @@ BEST_CHECKPOINT = os.path.join(
     "dristi_v06_deberta_best.pt"
 )
 
-BATCH_SIZE = 16
-EPOCHS = 6
+BATCH_SIZE = 8
+EPOCHS = 3
 
 LEARNING_RATE = 1e-5
 WEIGHT_DECAY = 0.01

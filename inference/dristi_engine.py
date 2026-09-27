@@ -16,8 +16,8 @@ class DristiEngine:
         self.calibration_path = calibration_path or CALIBRATION_PATH
         
         if model_class is None:
-            from model.dristi_model_v03 import DristiModelV03
-            model_class = DristiModelV03
+            from model.dristi_model_v04 import DristiModelV04
+            model_class = DristiModelV04
 
         print(f"Loading Tokenizer: {self.model_name}...")
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
@@ -27,6 +27,7 @@ class DristiEngine:
         checkpoint = torch.load(self.checkpoint_path, map_location=self.device, weights_only=False)
         self.model.load_state_dict(checkpoint["model_state_dict"])
         self.model.to(self.device)
+        self.model.float()
         self.model.eval()
         
         self.t_binary = 1.0
@@ -51,7 +52,7 @@ class DristiEngine:
             print("Warning: Calibration file not found. Using default temperatures (1.0).")
             
         self.ood_centroid = None
-        ood_path = "checkpoints/ood_centroid.npy"
+        ood_path = "checkpoints/ood_centroid_v06.npy"
         if os.path.exists(ood_path):
             import numpy as np
             # Load the mathematical center of known training data
